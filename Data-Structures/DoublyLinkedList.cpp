@@ -59,11 +59,19 @@ public:
         {
             throw runtime_error("List is empty.");
         }
-        Node<int> *itr = head;
-        head = head->next;
-        head->prev = NULL;
-        delete itr;
-        this->size_ -= 1;
+        else if(head->next == NULL)
+        {
+            delete head;
+            head = NULL;
+        }
+        else 
+        {
+            Node<int> *itr = head;
+            head = head->next;
+            head->prev = NULL;
+            delete itr;
+            this->size_ -= 1;
+        }
     }
 
     void deleteFromEnd()
@@ -72,14 +80,22 @@ public:
         {
             throw runtime_error("List is empty.");
         }
-        Node<int> *itr = head;
-        while (itr->next->next != NULL)
+        else if(head->next == NULL)
         {
-            itr = itr->next;
+            delete head;
+            head = NULL;
         }
-        delete(itr->next);
-        itr->next = NULL;
-        this->size_ -= 1;
+        else 
+        {
+            Node<int> *itr = head;
+            while (itr->next->next != NULL)
+            {
+                itr = itr->next;
+            }
+            delete(itr->next);
+            itr->next = NULL;
+            this->size_ -= 1;
+        }
     }
 
     void reverse()
@@ -153,6 +169,6 @@ int main(int argc, char **argv)
     l_list.reverse();
     cout << "Displaying Reverse LinkedList."<< endl;
     l_list.print();
-    cout << "Singly LinkedList Size : " << l_list.getSize() << endl;
+    cout << "Doubly LinkedList Size : " << l_list.getSize() << endl;
     return 0;
 }

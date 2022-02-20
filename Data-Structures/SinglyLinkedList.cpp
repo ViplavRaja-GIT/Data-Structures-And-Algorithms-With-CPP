@@ -52,14 +52,22 @@ public:
 
     void deleteFromStart()
     {
-        if (head == NULL)
+        if(head == NULL)
         {
-            throw runtime_error("List is empty.");
+            throw runtime_error("List empty.");
         }
-        Node<int> *itr = head;
-        head = head->next;
-        delete itr;
-        this->size_ -= 1;
+        else if(head == head->next)
+        {
+            delete head;
+            head = NULL;
+        }
+        else
+        {
+            Node<int> *itr = head;
+            head = head->next;
+            delete itr;
+            this->size_ -= 1;
+        }
     }
 
     void deleteFromEnd()
@@ -68,18 +76,30 @@ public:
         {
             throw runtime_error("List is empty.");
         }
-        Node<int> *itr = head;
-        while (itr->next->next != NULL)
+        else if(head->next == NULL)
         {
-            itr = itr->next;
+            delete head;
+            head = NULL;
         }
-        delete(itr->next);
-        itr->next = NULL;
+        else 
+        {
+            Node<int> *itr = head;
+            while (itr->next->next != NULL)
+            {
+                itr = itr->next;
+            }
+            delete(itr->next);
+            itr->next = NULL;
+        }
         this->size_ -= 1;
     }
 
     void reverse()
     {
+        if (head == NULL)
+        {
+            throw runtime_error("List is empty.");
+        }
         Node<T> *current = head, *next = NULL, *prev = NULL;
         while (current != NULL)
         {
