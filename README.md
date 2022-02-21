@@ -16,4 +16,4 @@ Means it contains it's own main function.
 | [Circular Linked List](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/CircularLinkedList/CircularLinkedList.cpp) |
 
 ## Algorithms :-
-[go](http://stackoverflow.com){target="_blank"} //markdown
+[go](http://stackoverflow.com){:target="_blank"} //kramdown
