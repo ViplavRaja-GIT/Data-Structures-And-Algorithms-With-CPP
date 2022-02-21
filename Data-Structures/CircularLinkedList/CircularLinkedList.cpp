@@ -14,14 +14,14 @@ public:
 };
 
 template <typename T>
-class LinkedList
+class CircularLinkedList
 {
 private:
     int size_;
     Node<T> *head = NULL;
 
 public:
-    LinkedList() : size_(0) {}
+    CircularLinkedList() : size_(0) {}
     
     int getSize()
     {
@@ -147,25 +147,3 @@ public:
         cout << "(" << itr->value << ")-->NULL"<< endl;
     }
 };
-
-int main()
-{
-    LinkedList<int> l_list;
-    l_list.append(1);
-    l_list.append(2);
-    l_list.append(3);
-    l_list.prepend(0);
-    l_list.prepend(-1);
-    l_list.prepend(-2);
-    l_list.prepend(-3);
-    l_list.prepend(-4);
-    l_list.deleteFromStart();
-    l_list.deleteAtEnd();
-    cout << "Displaying LinkedList."<< endl;
-    l_list.print();
-    l_list.reverse();
-    cout << "Displaying Reverse LinkedList."<< endl;
-    l_list.print();
-    cout << "Circular LinkedList Size : " << l_list.getSize() << endl;
-    return 0;
-}
