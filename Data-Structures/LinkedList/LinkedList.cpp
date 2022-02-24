@@ -102,7 +102,42 @@ int LinkedList<T>::getSize()
 }
 
 template <typename T>
-Node<T>* LinkedList<T>::getHead()
+Node<T>*  LinkedList<T>::getNth(int index)
 {
-    return head;
+    if(index > size_-1)
+    {
+        throw runtime_error("List is empty.");
+    }
+    Node<T> *temp = head;
+    while(index-- != 0)
+    {
+        temp = temp->next;
+    }
+    return temp;
+}
+
+template <typename T>
+void LinkedList<T>::removeNth(int index)
+{
+    if(index > size_-1)
+    {
+        throw runtime_error("List is empty.");
+    }
+    Node<T> *temp = head;
+    if(index == 0)
+    {
+        head = head->next;
+        delete temp;
+    } 
+    else
+    {
+        while(index != 1)
+        {
+            temp = temp->next;
+        }
+        Node<T> *toDelete = temp->next;
+        temp->next = temp->next->next;
+        delete toDelete;
+    }
+    this->size_-=1;
 }

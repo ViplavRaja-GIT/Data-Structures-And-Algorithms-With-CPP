@@ -30,7 +30,8 @@ class LinkedList
         void deleteFromEnd();
         void reverse();
         int getSize();
-        Node<T>* getHead();
+        Node<T>* getNth(int index);
+        void removeNth(int index);
 };
 
 #include "LinkedList.cpp"

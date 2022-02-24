@@ -2,9 +2,8 @@
 
 // This print logic can be changed according to the item type.
 template <typename T>
-void print(Node<T> *head)
+void print(Node<T> *itr)
 {
-    Node<T> *itr = head;
     while (itr != NULL)
     {
         cout << *itr->value << "-->";
@@ -30,11 +29,12 @@ int main(int argc, char **argv)
     l_list.prepend(new int(5));
     l_list.prepend(new int(4));
     l_list.prepend(new int(3));
+    l_list.removeNth(0);
     cout << "Displaying LinkedList."<< endl;
-    print(l_list.getHead());
+    print(l_list.getNth(0));
     l_list.reverse();
     cout << "Displaying Reverse LinkedList."<< endl;
-    print(l_list.getHead());
+    print(l_list.getNth(0));
     cout << "Singly LinkedList Size : " << l_list.getSize() << endl;
     return 0;
 }

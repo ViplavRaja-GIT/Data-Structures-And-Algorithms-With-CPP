@@ -11,8 +11,9 @@ Means it contains it's own main function.
 | [Stack](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/Stack/Stack.cpp) |
 | [Queue](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/Queue/Queue.cpp) |
 | [Dynamic Array](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/DynamicArray/DynamicArray.cpp) |
-| [Linked List](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/LinkedList/LinkedList.cpp) |
+| [Linked List](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/LinkedList) |
 | [Doubly Linked List](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/DoublyLinkedList/DoublyLinkedList.cpp) |
 | [Circular Linked List](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/CircularLinkedList/CircularLinkedList.cpp) |
+| [HashTable](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/HashTable) |
 
 ## Algorithms :-
