@@ -23,17 +23,16 @@ class HashTable
 {
 private:
     int size_;
+    int count;
     LinkedList<Item<T>> *table;
-    int getHash(int key)
-    {
-        return key % size_;
-    }
+    int getHash(int key);
 
 public:
     HashTable(int n);
     void InsertElement(Item<T> *item);
-    Item<T>* GetElement(int key);
+    Item<T> *GetElement(int key);
     void RemoveElement(int key);
+    int GetSize();
     void DisplayHashTable();
 };
 

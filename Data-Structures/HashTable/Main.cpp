@@ -16,7 +16,8 @@ int main()
 
     cout << "Get element from HashTable." << endl;
     Item<string> *t = h.GetElement(5);
-    cout << t->_value << endl;
+    cout << "Fetched element key (5) : " << t->_value << endl;
+    cout << "\nElement Count : " << h.GetSize() << endl;
     cout << "\nPrint HashTable." << endl;
     h.DisplayHashTable();
 }
