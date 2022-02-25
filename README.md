@@ -26,9 +26,8 @@ Means it contains it's own main function.
 | [Shell Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp) |
 
 ```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+graph TD; 
+A(Start)-->B(Do some stuff); 
+B(Take some rest)-->C(do more);
+click B "http://www.github.com" "This is a link"
 ```
