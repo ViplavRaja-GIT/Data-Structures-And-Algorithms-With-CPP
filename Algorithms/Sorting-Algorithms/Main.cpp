@@ -1,4 +1,11 @@
 #include "Sorting.h"
+#include <algorithm>
+
+template <typename T>
+void RandomiseTheArray(DynamicArray<T> *arr, int _size)
+{
+    random_shuffle(&(*arr)[0],&(*arr)[_size-1]);
+}
 
 int main()
 {
@@ -13,8 +20,37 @@ int main()
     dArray.add(-89);
     dArray.add(-78);
     Sorting<int> sort;
-    sort.BubbleSort(&dArray, dArray.getSize());
-    sort.InsertionSort(&dArray, dArray.getSize());
+    
+    cout << "\nSorting :";
     dArray.print();
+    sort.BubbleSort(&dArray, dArray.getSize());
+    cout << "Bubble Sort Result :";
+    dArray.print();
+    
+    RandomiseTheArray(&dArray, dArray.getSize());
+    
+    cout << "\nSorting :";
+    dArray.print();
+    sort.InsertionSort(&dArray, dArray.getSize());
+    cout << "Insertion Sort Result :";
+    dArray.print();
+    
+    RandomiseTheArray(&dArray, dArray.getSize());
+    
+    cout << "\nSorting :";
+    dArray.print();
+    sort.SelectionSort(&dArray, dArray.getSize());
+    cout << "Selection Sort Result :";
+    dArray.print();
+    
+    RandomiseTheArray(&dArray, dArray.getSize());
+    
+    cout << "\nSorting :";
+    dArray.print();
+    sort.ShellSort(&dArray, dArray.getSize());
+    cout << "Shell Sort Result :";
+    dArray.print();
+
+    cout << endl;
     return 0;
 }

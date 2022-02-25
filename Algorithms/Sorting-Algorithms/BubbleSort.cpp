@@ -10,6 +10,6 @@ void Sorting<T>::BubbleSort(DynamicArray<T> *arr, int _size)
             // swap if arr[j] is greater than arr[j+1]
             if ((*arr)[j] > (*arr)[j + 1])
             {
-                swap(&(*arr)[j], &(*arr)[j + 1]);
+                Swap(&(*arr)[j], &(*arr)[j + 1]);
             }
 }
