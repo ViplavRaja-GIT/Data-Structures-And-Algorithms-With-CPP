@@ -24,3 +24,11 @@ Means it contains it's own main function.
 | [Insertion Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp) |
 | [Selection Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp) |
 | [Shell Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp) |
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
