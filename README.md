@@ -18,16 +18,15 @@ Means it contains it's own main function.
 
 ## Algorithms :-
 ### [Sorting Algorithms](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms)
-| Sorting Types                                 |
-| --------------------------------------------- |
-| [Bubble Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp) |
-| [Insertion Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp) |
-| [Selection Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp) |
-| [Shell Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp) |
-
 ```mermaid
 graph TD; 
-A(Start)-->B(Do some stuff); 
-B(Take some rest)-->C(do more);
-click B "http://www.github.com" "This is a link"
+A(Sorting Algorithms); 
+A-->B(Bubble Sort);
+A-->C(Insertion Sort);
+A-->D(Selection Sort);
+A-->E(Shell Sort);
+click B "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp" "This is a link"
+click C "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp" "This is a link"
+click D "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp" "This is a link"
+click E "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp" "This is a link"
 ```
