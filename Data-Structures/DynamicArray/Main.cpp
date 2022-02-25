@@ -1,4 +1,4 @@
-#include "DynamicArray.cpp"
+#include "DynamicArray.h"
 int main(int argc, char **argv)
 {
     DynamicArray<int> dArray;
@@ -9,5 +9,7 @@ int main(int argc, char **argv)
     }
     cout << "Last element : " << dArray[19] << endl;
     cout << "Array size_ : " << dArray.getSize() << endl;
+    cout << "Print Array" << endl;
+    dArray.print();
     return 0;
 }
