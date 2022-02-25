@@ -8,6 +8,7 @@ void Sorting<T>::swap(T *x, T *y)
     *y = temp;
 }
 
+// #Bubble_Sort
 template <typename T>
 void Sorting<T>::BubbleSort(DynamicArray<T> *arr, int _size)
 {
@@ -22,6 +23,7 @@ void Sorting<T>::BubbleSort(DynamicArray<T> *arr, int _size)
             }
 }
 
+// #Insertion_Sort
 template <typename T>
 void Sorting<T>::InsertionSort(DynamicArray<T> *arr, int _size)
 {
