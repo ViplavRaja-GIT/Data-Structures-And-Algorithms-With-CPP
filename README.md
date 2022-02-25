@@ -17,6 +17,8 @@ Means it contains it's own main function.
 | [HashTable](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Data-Structures/HashTable) |
 
 ## Algorithms :-
-| Sorting                                       |
+### [Sorting Algorithms](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms)
+| Sorting Types                                 |
 | --------------------------------------------- |
-| [Bubble Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/Sorting.cpp#Bubble_Sort)|
+| [Bubble Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp) |
+| [Insertion Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp) |
