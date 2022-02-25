@@ -22,3 +22,5 @@ Means it contains it's own main function.
 | --------------------------------------------- |
 | [Bubble Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp) |
 | [Insertion Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp) |
+| [Selection Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp) |
+| [Shell Sort](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp) |
