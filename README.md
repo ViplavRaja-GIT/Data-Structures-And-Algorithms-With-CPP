@@ -25,9 +25,11 @@ A-->B(Bubble Sort);
 A-->C(Insertion Sort);
 A-->D(Selection Sort);
 A-->E(Shell Sort);
+A-->F(Heap Sort);
 click A "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms" "This is a link"
 click B "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp" "This is a link"
 click C "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp" "This is a link"
 click D "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp" "This is a link"
 click E "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp" "This is a link"
+click F "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/HeapSort.cpp" "This is a link"
 ```

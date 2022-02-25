@@ -50,6 +50,14 @@ int main()
     sort.ShellSort(&dArray, dArray.getSize());
     cout << "Shell Sort Result :";
     dArray.print();
+    
+    RandomiseTheArray(&dArray, dArray.getSize());
+    
+    cout << "\nSorting :";
+    dArray.print();
+    sort.HeapSort(&dArray, dArray.getSize());
+    cout << "Heap Sort Result :";
+    dArray.print();
 
     cout << endl;
     return 0;

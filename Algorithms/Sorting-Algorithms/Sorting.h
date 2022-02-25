@@ -13,6 +13,8 @@ class Sorting
         void InsertionSort(DynamicArray<T> *arr, int _size);
         void SelectionSort(DynamicArray<T> *arr, int _size);
         void ShellSort(DynamicArray<T> *arr, int _size);
+        void Heapify(DynamicArray<T> *arr, int n, int i);
+        void HeapSort(DynamicArray<T> *arr, int _size);
 };
 
 #include "Sorting.cpp"
@@ -20,4 +22,5 @@ class Sorting
 #include "InsertionSort.cpp"
 #include "SelectionSort.cpp"
 #include "ShellSort.cpp"
+#include "HeapSort.cpp"
 #endif
