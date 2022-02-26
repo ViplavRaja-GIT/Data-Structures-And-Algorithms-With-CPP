@@ -5,53 +5,9 @@ Every file can be compiled separately.
 Means it contains it's own main function.
 
 ## Data Structures :-
-<style>
-    td {
-        text-align: center;
-        padding: 5px 10px;
-        margin-top: 10px;
-    }
-
-    .d-s-anchor {
-        background: hsl(210, 8%, 25%);
-        padding: 10px 5px;
-        border-radius: 10px;
-        width: 100%;
-        display: block;
-        color: white;
-        text-decoration: none;
-    }
-</style>
-<table>
-    <tr>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/Stack/Stack.cpp">Stack</a>
-        </td>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/Queue/Queue.cpp">Queue</a>
-        </td>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/DynamicArray/DynamicArray.cpp">Dynamic Array</a>
-        </td>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/LinkedList">Linked List</a>
-        </td>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/DoublyLinkedList/DoublyLinkedList.cpp">Doubly Linked List</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a class="d-s-anchor" href="Data-Structures/CircularLinkedList/CircularLinkedList.cpp">Circular Linked List</a>
-        </td>
-        <td>
-            <a class="d-s-anchor" href="/Data-Structures/HashTable">HashTable</a>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+<div align="center">
+    <img src="DataStructure.svg" width="700" height="400">
+</div>
 
 ## Algorithms :-
 ### [Sorting Algorithms](/Algorithms/Sorting-Algorithms)
