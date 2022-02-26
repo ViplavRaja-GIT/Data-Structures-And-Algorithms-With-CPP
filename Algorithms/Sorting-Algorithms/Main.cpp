@@ -19,6 +19,10 @@ int main()
     dArray.add(33);
     dArray.add(-89);
     dArray.add(-78);
+    dArray.add(89);
+    dArray.add(0);
+    dArray.add(-128);
+    dArray.add(567);
     Sorting<int> sort;
     
     cout << "\nSorting :";

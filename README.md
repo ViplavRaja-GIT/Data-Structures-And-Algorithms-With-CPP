@@ -33,3 +33,6 @@ click D "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-C
 click E "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp" "This is a link"
 click F "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/HeapSort.cpp" "This is a link"
 ```
+### [Two Pointer Algorithms](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Two-Pointer-Algorithms)
+- [3Sum](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Two-Pointer-Algorithms/3Sum.cpp)
+- [Floyd's-Cycle-Finding](https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Two-Pointer-Algorithms/Floyd's-Cycle-Finding.cpp)
