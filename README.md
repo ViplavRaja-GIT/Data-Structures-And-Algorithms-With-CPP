@@ -5,9 +5,16 @@ Every file can be compiled separately.
 Means it contains it's own main function.
 
 ## Data Structures :-
-<div align="center">
-    <img src="DataStructure.svg">
-</div>
+
+| Data Structure                                |
+| --------------------------------------------- |
+| [Stack](/Data-Structures/Stack/Stack.cpp) |
+| [Queue](/Data-Structures/Queue/Queue.cpp) |
+| [Dynamic Array](/Data-Structures/DynamicArray/DynamicArray.cpp) |
+| [Linked List](/Data-Structures/LinkedList) |
+| [Doubly Linked List](/Data-Structures/DoublyLinkedList/DoublyLinkedList.cpp) |
+| [Circular Linked List](/Data-Structures/CircularLinkedList/CircularLinkedList.cpp) |
+| [HashTable](/Data-Structures/HashTable) |
 
 ## Algorithms :-
 ### [Sorting Algorithms](/Algorithms/Sorting-Algorithms)
