@@ -47,3 +47,4 @@ Means it contains it's own main function.
     - [Maximum Subarray Problem](/Algorithms/Dynamic-Programming/MaxSum.cpp) - Kadane’s Algorithm
 
 - ### [Lonely Element](/Algorithms/LonelyElement.cpp)
+- ### [Josephus Problem](/Algorithms/JosephusProblem.cpp)
