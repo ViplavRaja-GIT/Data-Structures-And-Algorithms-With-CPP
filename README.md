@@ -6,7 +6,7 @@ Means it contains it's own main function.
 
 ## Data Structures :-
 <div align="center">
-    <img src="DataStructure.svg" width="700" height="150">
+    <img src="DataStructure.svg">
 </div>
 
 ## Algorithms :-
