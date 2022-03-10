@@ -50,3 +50,7 @@ Means it contains it's own main function.
 - ### [Lonely Element](/Algorithms/LonelyElement.cpp)
 - ### [Josephus Problem](/Algorithms/JosephusProblem.cpp)
 - ### [Merging Overlapping Intervals](/Algorithms/MergeOverlapping.cpp)
+    Given a set of intervals, print all non-overlapping intervals after merging the overlapping intervals.
+- ### [Trapping Rain Water Problem](/Algorithms/TrappingRainWater.cpp)
+    Trapping rainwater problem: Find the maximum amount of water that can be trapped within
+    a given set of bars where each bar’s width is 1 unit.
