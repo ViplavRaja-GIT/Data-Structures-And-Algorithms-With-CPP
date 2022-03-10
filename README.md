@@ -44,7 +44,8 @@ Means it contains it's own main function.
     - [Floyd's-Cycle-Finding](/Algorithms/Two-Pointer-Algorithms/Floyd's-Cycle-Finding.cpp)
 
 - ### [Dynamic Programming](/Algorithms/Dynamic-Programming)
-    - [Maximum Subarray Problem](/Algorithms/Dynamic-Programming/MaxSum.cpp) - Kadane’s Algorithm
+    - [Maximum Sum Subset Problem](/Algorithms/Dynamic-Programming/MaxSum.cpp) - Kadane’s Algorithm
+    - [Maximum Product Subset Problem](/Algorithms/Dynamic-Programming/MaxProduct.cpp)
 
 - ### [Lonely Element](/Algorithms/LonelyElement.cpp)
 - ### [Josephus Problem](/Algorithms/JosephusProblem.cpp)
