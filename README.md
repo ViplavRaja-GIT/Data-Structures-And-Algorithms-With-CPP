@@ -49,3 +49,4 @@ Means it contains it's own main function.
 
 - ### [Lonely Element](/Algorithms/LonelyElement.cpp)
 - ### [Josephus Problem](/Algorithms/JosephusProblem.cpp)
+- ### [Merging Overlapping Intervals](/Algorithms/MergeOverlapping.cpp)
