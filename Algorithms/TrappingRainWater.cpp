@@ -3,6 +3,35 @@
 #include<limits.h>
 using namespace std;
 
+// Function to find the amount of water that can be trapped within
+// a given set of bars in linear time and constant space
+int trap(int heights[], int n)
+{
+    // maintain two pointers left and right, pointing to the leftmost and
+    // rightmost index of the input array
+    int left = 0, right = n - 1, water = 0;
+ 
+    int maxLeft = heights[left];
+    int maxRight = heights[right];
+ 
+    while (left < right)
+    {
+        if (heights[left] <= heights[right])
+        {
+            left++;
+            maxLeft = max(maxLeft, heights[left]);
+            water += (maxLeft - heights[left]);
+        }
+        else {
+            right--;
+            maxRight = max(maxRight, heights[right]);
+            water += (maxRight - heights[right]);
+        }
+    }
+ 
+    return water;
+}
+
 int trappedWater(int bars[], int n)
 {
     // base case
@@ -28,7 +57,7 @@ int trappedWater(int bars[], int n)
     // of the current bar
     int right = INT_MIN;
 
-    // process bars from roght to left
+    // process bars from right to left
     for(int i = n-2; i>=1; i--)
     {
         right = max(right, bars[i+1]);

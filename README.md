@@ -24,21 +24,16 @@ Means it contains it's own main function.
 
 ## Algorithms :-
 - ### [Sorting Algorithms](/Algorithms/Sorting-Algorithms)
-    ```mermaid
-    graph TD; 
-    A(Sorting Algorithms); 
-    A-->B(Bubble Sort);
-    A-->C(Insertion Sort);
-    A-->D(Selection Sort);
-    A-->E(Shell Sort);
-    A-->F(Heap Sort);
-    click A "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms" "This is a link"
-    click B "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/BubbleSort.cpp" "This is a link"
-    click C "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/InsertionSort.cpp" "This is a link"
-    click D "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/SelectionSort.cpp" "This is a link"
-    click E "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/ShellSort.cpp" "This is a link"
-    click F "https://github.com/ViplavRaja-GIT/Data-Structures-And-Algorithms-With-CPP/blob/main/Algorithms/Sorting-Algorithms/HeapSort.cpp" "This is a link"
-    ```
+    <table>
+    <tr>
+    <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/BubbleSort.cpp">Bubble Sort</a></td>
+    <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/InsertionSort.cpp">Insertion Sort</a></td>
+    <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/SelectionSort.cpp">Selection Sort</a></td>
+    <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/ShellSort.cpp">Shell Sort</a></td>
+    <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/HeapSort.cpp">Heap Sort</a></td>
+    </tr>
+    </table>
+    
 - ### [Two Pointer Algorithms](/Algorithms/Two-Pointer-Algorithms)
     - [3Sum](/Algorithms/Two-Pointer-Algorithms/3Sum.cpp)
     - [Floyd's-Cycle-Finding](/Algorithms/Two-Pointer-Algorithms/Floyd's-Cycle-Finding.cpp)
