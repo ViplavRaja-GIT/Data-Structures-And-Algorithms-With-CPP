@@ -13,3 +13,7 @@ A tiling with squares whose side lengths are successive Fibonacci numbers: 1, 1,
 The Fibonacci spiral: an approximation of the golden spiral created by drawing circular arcs connecting the opposite corners of squares in the Fibonacci tiling.
 
 ![Fibonacci Spiral](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fibonacci_Spiral.svg/300px-Fibonacci_Spiral.svg.png)
+
+## References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
