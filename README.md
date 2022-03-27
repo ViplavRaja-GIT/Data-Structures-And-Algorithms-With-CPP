@@ -25,7 +25,7 @@ Follow this - [link](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 
 ## Algorithms by topic:-
-### `Sorting Algorithms`
+- ### `Sorting Algorithms`
     <table>
     <tr>
     <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/BubbleSort.cpp">Bubble Sort</a></td>
@@ -38,7 +38,7 @@ Follow this - [link](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 - ### `Math`
     - [Fibonacci](/Algorithms/Math/Fibonacci)
-
+    
 - ### `Two Pointer Algorithms`
     - [3Sum](/Algorithms/Two-Pointer-Algorithms/3Sum.cpp)
     - [Floyd's-Cycle-Finding](/Algorithms/Two-Pointer-Algorithms/Floyd's-Cycle-Finding.cpp)
