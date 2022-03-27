@@ -1,8 +1,10 @@
 
 # Data Structures And Algorithms With C++
 
-Every file can be compiled separately.
-Means it contains it's own main function.
+## How to run :-
+Visual Studio Code to use the GCC C++ compiler (g++) and GDB debugger from mingw-w64 to create programs that run on Windows.
+
+Follow this - [link](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## Data Structures :-
 <table>
@@ -22,7 +24,7 @@ Means it contains it's own main function.
 </table>
 
 
-## Algorithms :-
+## Algorithms by topic:-
 - ### [Sorting Algorithms](/Algorithms/Sorting-Algorithms)
     <table>
     <tr>
@@ -33,6 +35,9 @@ Means it contains it's own main function.
     <td><a class="d-s-anchor" href="/Algorithms/Sorting-Algorithms/HeapSort.cpp">Heap Sort</a></td>
     </tr>
     </table>
+
+- ### [Math](/Algorithms/Math)
+    - [Fibonacci](/Algorithms/Math/Fibonacci)
     
 - ### [Two Pointer Algorithms](/Algorithms/Two-Pointer-Algorithms)
     - [3Sum](/Algorithms/Two-Pointer-Algorithms/3Sum.cpp)
@@ -42,10 +47,11 @@ Means it contains it's own main function.
     - [Maximum Sum Subset Problem](/Algorithms/Dynamic-Programming/MaxSum.cpp) - Kadane’s Algorithm
     - [Maximum Product Subset Problem](/Algorithms/Dynamic-Programming/MaxProduct.cpp)
 
-- ### [Lonely Element](/Algorithms/LonelyElement.cpp)
-- ### [Josephus Problem](/Algorithms/JosephusProblem.cpp)
-- ### [Merging Overlapping Intervals](/Algorithms/MergeOverlapping.cpp)
-    Given a set of intervals, print all non-overlapping intervals after merging the overlapping intervals.
-- ### [Trapping Rain Water Problem](/Algorithms/TrappingRainWater.cpp)
-    Trapping rainwater problem: Find the maximum amount of water that can be trapped within
-    a given set of bars where each bar’s width is 1 unit.
+- ### [Others](/Algorithms/Others)
+    - [Lonely Element](/Algorithms/LonelyElement.cpp)
+    - [Josephus Problem](/Algorithms/JosephusProblem.cpp)
+    - [Merging Overlapping Intervals](/Algorithms/MergeOverlapping.cpp)
+        Given a set of intervals, print all non-overlapping intervals after merging the overlapping intervals.
+    - [Trapping Rain Water Problem](/Algorithms/TrappingRainWater.cpp)
+        Trapping rainwater problem: Find the maximum amount of water that can be trapped within
+        a given set of bars where each bar’s width is 1 unit.
